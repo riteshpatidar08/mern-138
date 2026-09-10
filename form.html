@@ -1,23 +1,47 @@
 <html>
-    <head></head>
-    <body>
-        <form action="http://localhost:3000">
-            <label>FirstName</label>
-            <input type="text" name="firstname"/>
-            <label>lastName</label>
-            <input type="text" name="lastname">
-            <label>Age</label>
-            <input type="number" name="age">
-            <label>Email</label>
-            <input type="email" name="email">
-            <label>Dob</label>
-            <input type="date" name="dob">
-            <label>Password</label>
-            <input type="password">
-            <button>Submit</button>
-        </form>
-    </body>
-</html>
+  <head></head>
+  <body>
+    <form action="">
+      <label>FirstName</label>
+      <input type="text" name="firstname" />
+      <label>lastName</label>
+      <input type="text" name="lastname" />
+      <label>Age</label>
+      <input type="number" name="age" />
+      <label>Email</label>
+      <input type="email" name="email" />
+      <label>Dob</label>
+      <input type="date" name="dob" />
+      <label>Password</label>
+      <input type="password" /> <br />
 
+      <label>Positions Available:</label>
+      <input type="radio" name="PositionAvailable" value="juniorDeveloper" />
+      <label>Junior Developer</label>
+      <input type="radio" name="PositionAvailable" value="mid level" />
+      <label>Mid-Level Developer</label>
+      <input type="radio" name="PositionAvailable" value="senior developer" />
+      <label>Senior Developer</label>
+
+      <label>Programming langauges:</label>
+      <input type="checkbox" name="programming" value="java" />
+      <label>Java</label>
+      <input type="checkbox" name="programming" value="python" />
+      <label>Python</label>
+      <input type="checkbox" name="programming" value="javascript" />
+      <label>JavaScript</label> <br />
+
+      <input type="range" min="0" max="2000" step="500" name="price" />
+
+      <!-- <label>Country</label> -->
+      <select name="country">
+        <option value="">Select Country</option>
+        <option value="IN">India</option>
+        <option value="Usa">Us</option>
+      </select>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
 
 <!-- firstName=ritesh&lastName=patidar -->
