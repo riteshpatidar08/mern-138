@@ -3,9 +3,16 @@
   <body>
     <form action="">
       <label>FirstName</label>
-      <input type="text" name="firstname" />
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Enter your fullName"
+        required
+      />
       <label>lastName</label>
-      <input type="text" name="lastname" />
+      <input type="text" name="lastname" required />
+      <label>Share Amount</label>
+      <input type="text" value="500" name="share" disabled />
       <label>Age</label>
       <input type="number" name="age" />
       <label>Email</label>
@@ -39,9 +46,55 @@
         <option value="IN">India</option>
         <option value="Usa">Us</option>
       </select>
+
+      <fieldset>
+        <legend>Course Information</legend>
+        <label>Course Name</label>
+        <input type="text" name="coursename" />
+        <label>Course Price</label>
+        <input type="number" name="price" />
+        <label>Course duration</label>
+        <input type="text" name="duration" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Address Information</legend>
+        <labe>House Number</labe>
+        <input type="text" name="coursename" />
+        <label>Course Price</label>
+        <input type="number" name="price" />
+        <label>Course duration</label>
+        <input type="text" name="duration" />
+      </fieldset>
+
+      <input type="reset" />
+      <!-- <input type="submit"  value="register"> -->
+      <textarea cols="70" rows="20" name="msg"></textarea>
+      <input type="color" />
+      <input type="file" name="resume" />
+
+      <input type="week" />
+      <input type="month" />
+
+      <select>
+        <option>Rajasthan</option>
+      </select>
+
+      <select disabled>
+        <option>Jaipur</option>
+      </select>
       <button>Submit</button>
     </form>
   </body>
 </html>
 
-<!-- firstName=ritesh&lastName=patidar -->
+<!-- firstName=ritesh&lastName=patidar //fieldset and legend -->
+
+<!-- text + media  -->
+<!-- username + useremail + profile photo media (multipart/formData) -->
+<!-- new FormData() -->
+
+<!-- name , value , type , input attributes 
+  (placeholder min , max , maxlength , minlength , required , autofocus , disabled)
+form => action , method (novalidate , name ) -->
+readonly , disabled
