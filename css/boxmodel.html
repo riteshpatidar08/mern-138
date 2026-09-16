@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      body {
+        box-sizing: border-box; /* no inheritance */
+        color: red; /* inherited */
+      }
+
+      p {
+        height: 300px; /* 388 */
+        width: 300px;
+        /*    margin : 30px 40px 50px 60px; */
+        /*   margin : 10px 20px */
+        margin: 30px;
+        padding: 40px;
+        border: 4px solid black;
+        /*  border : 2px dashed red ; */
+        border-top: 1px solid red;
+
+        border-left: 2px solid blue;
+        border-bottom: 2px solid green;
+        border-right: 3px solid mediumaquamarine;
+      }
+      .hello {
+        border-right: 2px solid black;
+        padding: 5px;
+      }
+
+      .btn {
+        margin: 20px 50px;
+        padding: 8px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+      }
+
+      .outline {
+        color: rgb(12, 154, 226);
+        border: 1px solid rgb(12, 154, 226);
+        background-color: transparent;
+      }
+
+      .filled {
+        color: rgb(12, 154, 226);
+        background-color: rgb(191, 212, 233);
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ut
+      ipsa, blanditiis quia dolores pariatur doloremque consequuntur laboriosam
+      illo laudantium, enim accusamus modi voluptate repudiandae inventore sunt
+      quas ipsum tenetur! Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Cupiditate
+    </p>
+    <h1>hello</h1>
+
+    <button class="btn outline">Book tickets</button>
+    <button class="btn filled">Book tickets</button>
+    <button class="btn filled">Register</button>
+    <button class="btn outline">Login</button>
+    <span class="hello">hello</span> <span>Movies</span>
+  </body>
+</html>
+
+<!-- #17c964 -->
+
+<!-- box-sizing: border-box; -->
+<!-- total height => content + top border + bottom border + top padding + bottom Padding = 300px ; -->
+<!-- total width => content + left border + right border + right padding + left paddding => 300px ; -->
+
+<!-- total Height => only content + padding + border  -->
