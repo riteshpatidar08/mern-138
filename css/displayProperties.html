@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .heading_first {
+        display: inline-block;
+        height: 200px;
+        width: 400px;
+        border: 1px dashed rgb(4, 33, 42);
+        background-color: lightblue;
+        padding: 10px;
+      }
+
+      h3 {
+        display: inline-block;
+        margin-right: 550px;
+      }
+      nav {
+        display: inline-block;
+        margin-right: 550px;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      section {
+        height: 400px;
+        width: 250px;
+        display: inline-block;
+        margin-right: 50px;
+        border: 2px solid gray;
+        border-radius: 6px;
+      }
+
+      #first {
+        margin-left: 100px;
+      }
+
+      #para1 {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1 class="heading_first">heading</h1>
+    <h1 class="heading_first">heading</h1> -->
+
+    <header>
+      <h3>BookMyShow</h3>
+      <nav>
+        <li><a href="">Movies</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Sports</a></li>
+      </nav>
+      <button>Login</button>
+    </header>
+    <main>
+      <section id="first"></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+
+    <p id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla aut sit illum voluptatum, earum, et ad reiciendis mollitia atque magnam quae impedit fugit commodi veritatis enim ratione officia! Quam, similique.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore quae quaerat error porro corrupti praesentium, alias quasi maiores magnam dolorum itaque ratione nobis aut, asperiores eos! Animi, iste necessitatibus!</p>
+  </body>
+</html>
+
+<!-- block =>  takes full width of the viewport and always start with new line -->
+<!-- inline => takes width equal to content , if it is written after block element it always start with the new line , if it is writtern after inline element it comes in the same line 
+demerit => we cannot apply height and width to the inline element -->
+<!-- inline-block => takes initial width equal to the content , and you can also give height and width -->
+<!-- layout => flex and grid / table / inline inline-block inline  -->
+<!-- flex , grid  -->
+<!-- positions properties  static  , relative , absolute , fixed , sticky  -->
+ top , left , right , bottom , z-index

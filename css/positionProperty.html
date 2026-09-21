@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        border: 5px dashed gray;
+        padding: 10px;
+        height: 2000px;
+      }
+      .para {
+        padding: 8px;
+      }
+      .para1 {
+       position: fixed;
+      bottom : 0px ;
+      right : 0px;
+
+        border: 2px solid red;
+        background-color: lightblue;
+      }
+      .para2 {
+        border: 2px solid blue;
+      }
+
+      .para3 {
+        border: 2px solid green;
+        background-color: lightcoral;
+      }
+
+      header {
+        height: 100px;
+        background-color: lightcyan;
+        position: sticky;
+        top : 0
+      }
+
+      
+
+     
+    </style>
+  </head>
+  <body>
+    <header>
+
+    </header>
+   
+        <p class="para1 para">
+          VIBE centers on two inseparable friends whose ordinary, unassuming .
+        </p>
+   
+
+    <p class="para2 para">
+      A chapter that existed in the world of Mirzapur, that you never got to
+      see, is now brought to life. Mirzapur: The Movie showcases a power tussle
+      splashed with blood and revenge. Releasing in theatres in Hindi & Telugu
+      on 4th September.
+    </p>
+    <p class="para3 para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est impedit qui
+      sunt possimus ea voluptates voluptate tempore quaerat, numquam autem
+      blanditiis. Ipsa iure exercitationem consequuntur doloribus praesentium
+      itaque, sapiente aliquid!
+    </p>
+  </body>
+</html>
+
+<!-- position relative        
+when we give position relative to any specific element and moves the element using the offset properties like top bottom , right left , 
+- its original space is preversed. 
+- it moves relative to its original position.
+-->
+
+<!-- absolute 
+when we give absolute to any specific element : 
+the element leaves its original space and float in the document ;
+when we use offset properties like top , right , bottom , left : it looks for the position relative property : if any parent of element using the postiion relative it moves according to that parent ; if no parenet have using the position relative it moves to the according to the viewport
+-->
