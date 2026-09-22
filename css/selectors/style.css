@@ -1,0 +1,28 @@
+/* /* grouping selector 
+
+.para , .highlight , #heading {
+    color : red
+}
+
+/* child selector   most usable */
+
+/* #container > #container2 > .para1 {
+    color :blue
+} */
+
+
+
+/* descendent selector */
+
+/* #container p {
+    color : blue
+}
+  */
+
+#para~p {
+    color : red
+}
+
+input[type='text']{
+    width : 200px;
+}

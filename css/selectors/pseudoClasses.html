@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        transition: all ease-in-out 1s;
+      }
+
+      div:hover {
+        width: 400px;
+      }
+
+      #btn {
+        padding: 8px 20px;
+        border-radius: 12px;
+        background-color: transparent;
+        border: 1px solid rgb(81, 203, 244);
+        color: rgb(81, 203, 244);
+        transition: all ease-in-out 300ms;
+      }
+
+      #btn:hover {
+        background-color: rgb(81, 203, 244);
+        color: white;
+        border: none;
+      }
+
+      a {
+        color: lightcoral;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: green;
+      }
+
+      input:disabled {
+        border: 2px solid blue;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:focus {
+        width: 400px;
+      }
+
+      div:not(.container) {
+        background-color: blue;
+      }
+
+      div:has(p) {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+
+    <button id="btn">Login</button>
+    <form>
+      <input type="text" disabled />
+      <input type="email" required />
+      <button>Submit</button>
+    </form>
+
+    <a href="">Click Here</a>
+
+    <div class="container"><p>hello</p></div>
+    <div class="container">2</div>
+    <div class="container">3</div>
+    <div></div>
+  </body>
+</html>
+
+<!-- pseudoClasses  #btn:hover -->
+<!-- el ki koi sepecial state ko agar mujhe target krna hain . -->
