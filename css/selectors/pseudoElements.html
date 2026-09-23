@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input::placeholder {
+        color : red ;
+      }
+
+      p::selection {
+        color : red ;
+        background-color: black;
+      }
+
+      li::marker {
+        color : red
+      }
+
+      p::first-letter {
+        font-size: 40px;
+        color : blue
+      }
+      
+      h1::first-line{
+        color : gray
+      }
+
+      span::before {
+        content : '↗️'
+      }
+
+      span::after{
+        content : "✔️"
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter your name" />
+    <h1>get your shoes Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse, minus animi dolorem iste aspernatur illo autem tempora vitae expedita ab veritatis. Corporis ducimus fuga fugiat, tempore natus voluptas atque.</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, fuga
+      odit dicta minus officiis quos expedita nobis eius molestias at aut.
+      Architecto maxime alias eaque nesciunt, cupiditate eligendi doloribus
+      assumenda.
+    </p>
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+    </ul>
+
+    <span>India</span>
+  </body>
+</html>
+
+
+<!-- padding-box => padding + content -->
+<!-- content-box  => content -->
+<!-- border-box  => content + padding + border -->
+
+<!-- height : 200px , 200px width 20px padding , 1px  -->

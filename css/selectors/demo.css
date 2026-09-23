@@ -1,0 +1,51 @@
+* {
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+
+.demo_box {
+
+    height: 400px;
+    width : 40vh ;
+}
+.bg {
+    background-color: red;
+}
+
+.bg_img {
+    display: inline-block;
+    box-sizing: content-box;
+    width : 44px;
+    height: 37px;
+    padding : 20px ;
+    /* border : 10px dashed rgba(0, 0, 0, 0.8); */
+    background-image: url('https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/B2CHeaderSprite@2.png');
+    background-repeat: no-repeat;
+    /* background-size: 200px; */
+    background-position : -13px -75px;
+    /* background-origin: border-box; */
+    background-clip:padding-box;
+}
+
+#title {
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 33%, #48dbfb 66%, #1dd1a1 100%);
+    background-clip: text;
+    color : transparent
+}
+
+.menu_container {
+    background-color: white;
+    padding : 10px ;
+    border-radius: 12px;
+    margin : 10px 100px ;
+}
+
+.hero {
+    padding : 20px ;
+    background-image: url('https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg4.jpg');
+    height:90vh;
+    width : 100%;
+
+}
